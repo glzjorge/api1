@@ -3,7 +3,7 @@ const express = require('express');
 const port = 3002;
 //para permitir manejo de POST y PUT
 const bodyParser = require('body-parser');
-const routes = require('./routes/routes')
+const routes = require('./routers/routes')
 const app = express();
 
 // Usar Node.js body parsing middleware
